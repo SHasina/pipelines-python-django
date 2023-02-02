@@ -1,6 +1,6 @@
 # Use Python version v0
 # Use the specified version of Python from the tool cache, optionally adding it to the PATH.
-- task: UsePythonVersion@0
+-task: UsePythonVersion@0
   inputs:
     versionSpec: '3.x' # string. Required. Version spec. Default: 3.x.
     #disableDownloadFromRegistry: false # boolean. Disable downloading releases from the GitHub registry. Default: false.
